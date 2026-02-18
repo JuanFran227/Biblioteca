@@ -8,8 +8,8 @@ public class Usuario {
 
     /*No tocar*/
 
-    String nombreusuario;
-    int idusuario;
+    private String nombreusuario;
+    private int idusuario;
 
     public Usuario(){
 
