@@ -37,4 +37,5 @@ public class Libro {
     public String getcategoria(){
         return categoria;
     }
+    /*arraylibro[arraylibro.length++]=L*/
 }
