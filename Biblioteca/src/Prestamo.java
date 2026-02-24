@@ -15,6 +15,8 @@ public class Prestamo {
 
     }
 
+  
+
     public void finalizarPrestamo(){
         activo= false;
     }

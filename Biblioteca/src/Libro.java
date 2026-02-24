@@ -23,6 +23,10 @@ public class Libro {
         this.autor = autor;
         this.categoria = categoria;
     }
+    @Override
+    public String toString(){
+        return "Libro{ titulo: " +  titulo + "\n" + "autor: " + autor + "\n" + "categoria: "+ categoria + "}";
+    }
 
 
 

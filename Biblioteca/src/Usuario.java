@@ -20,6 +20,11 @@ public class Usuario {
         this.idusuario = idusuario;
     }
 
+      @Override
+    public String toString(){
+        return "usuaario{ usuario: " + nombreusuario + "idusuario: " + idusuario + "}";
+    }
+
     public String getNombreUsuario(){
         return nombreusuario;
     }
